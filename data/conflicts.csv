@@ -1,3 +1,5 @@
-conflict_name,us_importance,status
-A,B,C
-D,E,F
+conflict_name,us_importance,status,region
+Criminal Violence in Mexico,Significant,Unchanging,Americas
+Instability in the Northern Triangle,Significant,Unchanging,Americas
+Instability in Haiti,Significant,Worsening,Americas
+Venezuela Crisis,Limited,Unchanging,Americas
