@@ -1,5 +1,31 @@
-conflict_name,us_importance,status,region
-Criminal Violence in Mexico,Significant,Unchanging,Americas
-Instability in the Northern Triangle,Significant,Unchanging,Americas
-Instability in Haiti,Significant,Worsening,Americas
-Venezuela Crisis,Limited,Unchanging,Americas
+conflict_name,region,countries,impact_on_us,likelihood,tier,search_query,n_newsapi
+Continuation of the Israel-Hamas war,Middle East,"Israel, Palestine (Gaza Strip)",High,High,I,Israel Hamas war,4389
+Conflict in the West Bank,Middle East,"Israel, Palestine (West Bank)",High,High,I,West Bank conflict,505
+Major Russian military gains in Ukraine,Eastern Europe,"Russia, Ukraine",High,High,I,Russia Ukraine war,4739
+Escalation of Iran-Israel conflict,Middle East,"Iran, Israel",High,High,I,Iran Israel conflict,1513
+U.S. southern border crisis,North America,"United States, Mexico",High,High,I,US Mexico border situation,106
+Haiti criminal violence and state collapse,Caribbean,Haiti,Moderate,High,I,Haiti gang violence,104
+Lebanon state collapse and Israel-Hezbollah fighting,Middle East,"Lebanon, Israel",Moderate,High,I,Lebanon crisis Hezbollah,36
+Russian provocations in eastern Europe,Eastern Europe,"Russia, Georgia, Moldova",Moderate,High,I,Russia Eastern Europe tensions,91
+Intensified Chinese pressure toward Taiwan,East Asia,"China, Taiwan, United States",High,Moderate,I,China Taiwan news,1179
+Disruptive cyberattack on U.S. critical infrastructure,,United States,High,Moderate,I,US critical infrastructure cyberattack,52
+Aggressive Chinese actions in the South China Sea,Southeast Asia,"China, Philippines, United States",High,Moderate,I,South China Sea news,284
+Domestic terrorism and political violence in the U.S.,North America,United States,High,Moderate,I,US political violence,1924
+Civil war and ethnic violence in Sudan,Africa,Sudan,Low,High,II,Sudan civil war,218
+Conflict with al-Shabaab in Somalia,Africa,Somalia,Low,High,II,Somalia al-Shabaab news,9
+Repressive actions and conflict in Afghanistan,South Asia,Afghanistan,Low,High,II,Afghanistan Taliban news,182
+Houthi strikes in the Red Sea and Gulf of Aden,Middle East,"Yemen, United States, United Kingdom",Moderate,Moderate,II,Houthi Red Sea attacks,301
+Militant activity and political instability in Pakistan,South Asia,"Pakistan, Afghanistan",Moderate,Moderate,II,Pakistan instability,100
+Violence between Turkish forces and Kurdish groups,Middle East,"Turkey, Iraq, Syria",Moderate,Moderate,II,Turkey Kurdish conflict,80
+Renewed tensions between India and Pakistan over Kashmir,South Asia,"India, Pakistan",Moderate,Moderate,II,Kashmir conflict India Pakistan,144
+North Korean weapons tests and provocations,East Asia,"North Korea, United States",High,Low,II,North Korea missile tests,15
+Conflict and instability in the Sahel,Africa,"Burkina Faso, Mali, Niger",Low,Moderate,III,Sahel conflict,53
+Resurgent terrorist violence in Nigeria,Africa,Nigeria,Low,Moderate,III,Nigeria terrorism news,12
+Ethnic and political conflict in eastern DR Congo,Africa,Democratic Republic of Congo,Low,Moderate,III,Eastern Congo conflict,136
+Governance crisis and civil disorder in Bangladesh,South Asia,Bangladesh,Low,Moderate,III,Bangladesh political unrest,15
+Conflict in Myanmar,Southeast Asia,Myanmar,Low,Moderate,III,Myanmar civil war,110
+"Resurgent conflict in Cabo Delgado, Mozambique",Africa,Mozambique,Low,Moderate,III,Mozambique Cabo Delgado conflict,6
+Widespread civil conflict in Ethiopia,Africa,Ethiopia,Low,Moderate,III,Ethiopia civil war,69
+Armed conflict in Libya,Africa,Libya,Low,Moderate,III,Libya conflict,134
+Ethiopia's Red Sea access ambitions,Africa,Ethiopia,Low,Moderate,III,Ethiopia Red Sea conflict,9
+Ethnic and political violence in the western Balkans,Europe,"Kosovo, Serbia",Low,Moderate,III,Kosovo Serbia tensions,12
