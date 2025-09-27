@@ -1,0 +1,57 @@
+---
+title: "ACLED"
+date: "Updated: `r format(Sys.Date(), format='%B %d %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 4
+---
+
+---
+
+```{r setup, include=FALSE}
+# knitr options
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.retina = 4)
+```
+
+
+```{r message=FALSE, warning=FALSE}
+# Libraries
+pacman::p_load(tidyverse, janitor, skimr, ggmagnify)
+df <- read_csv("../data/acled/2025.csv") %>% arrange(desc(fatalities))
+```
+
+```{r}
+glimpse(df)
+```
+
+```{r}
+# july 2025 events with deaths
+df %>% 
+  filter(str_detect(event_date, "07/2025$"), fatalities > 0) %>% 
+  relocate(country, event_date, fatalities, population_best) %>% 
+  count(country, wt = fatalities, sort = T) %>% 
+  view()
+```
+
+
+
+```{r, eval=FALSE}
+df <- read_csv("../data/conflicts.csv")
+
+df %>%
+  mutate(impact_on_us = factor(impact_on_us, levels = c("Low", "Moderate", "High"))) %>%
+  ggplot(aes(x = n_newsapi, color = impact_on_us)) +
+  geom_boxplot() +
+  theme_void() +
+  scale_x_continuous(minor_breaks = NULL) +
+  scale_y_continuous(minor_breaks = NULL) +
+  geom_magnify(
+    from = list(0, 320, -0.4, 0.1),
+    to = list(2200, 4000, -0.5, 0.15),
+    axes = "x",
+  ) +
+  theme_minimal() +
+  coord_cartesian(ylim = c(-0.6, 0.4))
+```
+
